@@ -54,6 +54,14 @@ public class HeroTester {
 					SuperSpeed,
 					Invulnerability});
 		
+
+
+
+
+
+
+
+					
 		/* Let's test the simplest kind of superheroes, mortals */
 		screen.println(" 1. In his normal identity Batman has no " +
 				"superpowers [Bruce Wayne, 0]: " + 
