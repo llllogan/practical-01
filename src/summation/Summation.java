@@ -8,11 +8,11 @@ package summation;
 public class Summation {
 
 	/* Constants defining the inclusive bounds of the range to be summed */
-	private static final short START = 1;
-	private static final short END = 5; // First try 5, then 1000;
+	private static final long START = 1;
+	private static final long END = 1000; // First try 5, then 1000;
 
 	/* Variable to hold the sum of numbers from START to END, inclusive */
-	private short total;
+	private long total;
 
 	/* Constructor to initialize instance variable */
 	public Summation() {
@@ -21,7 +21,7 @@ public class Summation {
 
 	/* Method to calculate the sum */
 	public void add() {
-		for (short index = START; index < END; index++) {
+		for (long index = START; index <= END; index++) {
 			total += index;
 		}
 	}
